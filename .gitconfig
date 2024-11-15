@@ -1,0 +1,22 @@
+[user]
+	name = Moritz R
+	email = 35408274+itoxiq@users.noreply.github.com
+	signingkey = BF7D96A4E64479F0
+[core]
+	editor = code --wait
+[credential]
+	helper = store
+[merge]
+	tool = code
+[pull]
+	rebase = false
+[commit]
+  gpgSign = true
+[tag]
+  gpgSign = true
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
