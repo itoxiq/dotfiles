@@ -1,0 +1,7 @@
+!*
+modules
+zimfw.zsh
+init.zsh
+init.zsh.old
+login_init.zsh.old
+.latest_version
